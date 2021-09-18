@@ -16,6 +16,9 @@ PubSubClient client(espClient); //pasamos la instancia, para hacer todo a traves
 long lastMsg = 0; //para guardar el ultimo mensaje
 char msg[25]; //para enviar el mensaje en tipo array, no se puede enviar un string asi nada mas
 
+
+
+FIXME: cambiar para poner el sensor de distancia
 int temp1 = 0; // pruebas
 int temp2 = 1;
 int volts = 2;
